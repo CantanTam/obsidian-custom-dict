@@ -57,7 +57,7 @@ class CustomDictPlugin extends Plugin {
                 const matchedLine = lines.find(line => line.includes(searchString));
 
                 if (matchedLine) {
-                    new Notice(`✅✅✅已收录\n${matchedLine}`, 5000);
+                    new Notice(`✅✅已收录✅✅\n${matchedLine}`, 5000);
                 } else {
                     if (notFoundHotkey) {
                         this.triggerHotkey(notFoundHotkey);
