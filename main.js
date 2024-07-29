@@ -20,7 +20,7 @@ class CustomDictPlugin extends Plugin {
                 let selectedText = editor.getSelection();
 
                 if (!selectedText.trim()) {
-                    new Notice("Please select some text first.");
+                    new Notice("请先选中文字");
                     return;
                 }
 
