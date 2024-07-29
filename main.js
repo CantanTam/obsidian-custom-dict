@@ -54,7 +54,7 @@ class CustomDictPlugin extends Plugin {
                 const searchString = `${prefixSymbol}${trimmedText}${suffixSymbol}`;
 
                 const lines = fileBContent.split('\n');
-                const matchedLine = lines.find(line => line.includes(searchString));
+                const matchedLine = lines.find(line => line.startsWith(searchString));
 
                 if (matchedLine) {
                     new Notice(`✅✅已收录✅✅\n${matchedLine}`, 5000);
