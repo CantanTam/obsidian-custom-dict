@@ -1,0 +1,10 @@
+{
+  "id": "custom-dict-plugin",
+  "name": "Custom Dict",
+  "version": "1.0.0",
+  "minAppVersion": "0.12.0",
+  "description": "A plugin to check if selected text from one file is included in another file with custom symbols and hotkeys.",
+  "author": "Canta Tam",
+  "authorUrl": "https://space.bilibili.com/391504171",
+  "isDesktopOnly": false
+}
